@@ -1,0 +1,87 @@
+@import url('./reset.css');
+
+:root {
+    font-family: Montserrat, Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    color: #242424;
+    background-color: rgba(255, 255, 255, 0.87);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.form {
+    width: 360px;
+    margin-top: 36px;
+    margin-left: 156px;
+}
+
+.label-delay {
+    display: block;
+    height: 72px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 16px;
+}
+
+.data-input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    border-radius: 4px;
+    stroke-width: 1px;
+    stroke: #808080;
+    margin-bottom: 24px;
+}
+
+.legend {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label-radio {
+    display: flex;
+    justify-content: center;
+    min-width: 104px;
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.label-radio input {
+    display: flex;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.btn-start {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}

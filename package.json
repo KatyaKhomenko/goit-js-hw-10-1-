@@ -17,5 +17,8 @@
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
-  }
+  },
+  "description": "Bu proje Vite kullanılarak oluşturulmuştur. Ek özelliklerin tanınması ve özelleştirilmesi için [belgelere bakın](https://vitejs.dev/).",
+  "main": "vite.config.js",
+  "keywords": []
 }
